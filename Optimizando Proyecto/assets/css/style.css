@@ -1,0 +1,21 @@
+
+  header, .alert{
+    z-index: 100;
+  }
+
+  .productos {
+    margin-top: 10rem;
+  }
+  .showcase {
+    margin-top: 5rem;
+  }
+
+.description {
+  height: 2rem;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+
+.description:hover {
+  height: 8rem;
+}
